@@ -1,0 +1,30 @@
+.card-search-container {
+  background-color: #ededed;
+  padding: 35px 15px 35px 15px;
+  border-radius: 10px;
+}
+
+.card-search-container form input {
+  border-radius: 5px 0px 0px 5px;
+  border: 0;
+  height: 40px;
+}
+
+input::placeholder {
+  color: #a7a7a7;
+  padding-left: 10px;
+  font-size: 14px;
+  opacity: 0.6 !important;
+}
+
+.card-search-container form button {
+  border-radius: 0px 5px 5px 0px;
+  border: 0;
+  background-color: #00285f;
+  height: 40px;
+}
+
+.card-search-container form button span {
+  color: #fff;
+  font-size: 14px;
+}

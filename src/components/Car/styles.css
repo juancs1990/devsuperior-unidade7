@@ -1,0 +1,53 @@
+.card-car-container {
+  background-color: #ededed;
+  padding: 20px 10px 20px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  font-size: 14px;
+  text-align: left;
+}
+
+.card-car-container h3 {
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 18px;
+  color: #000;
+}
+
+.card-car-container p {
+  color: #585858;
+  font-style: italic;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card-car-container button {
+  border-radius: 5px 5px 5px 5px;
+  border: 0;
+  background-color: #00285f;
+  height: 40px;
+  width: 90%;
+  margin: 10px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.card-car-container button h6 {
+  font-size: 14px;
+}
+
+@media (min-width: 576px) {
+  .card-car-container p {
+    font-size: 0.81em;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-car-container p {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,56 @@
+.main-nav {
+  padding: 15px;
+  min-height: 70px;
+  display: block;
+}
+
+.nav-logo-text,
+.nav-logo-text:hover {
+  color: #00285f;
+  font-size: 24px;
+}
+
+.toggler-example .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 40, 95, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.main-menu {
+  display: flex;
+  font-size: 18px;
+  width: 200px;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+.main-menu a {
+  font-style: normal;
+  color: #00285f;
+}
+
+.main-menu a.active {
+  font-weight: bold;
+  color: #00285f;
+}
+
+@media (min-width: 576px) {
+  .main-nav {
+    justify-content: space-between;
+    padding-left: 5%;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-collapse ul {
+    justify-content: space-between;
+    margin: auto;
+  }
+}
